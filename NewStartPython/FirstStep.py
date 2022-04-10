@@ -1,6 +1,3 @@
-print('Please input first number: ')
-a = int(input())
-print('Please input second number: ')
-b = int(input())
-c = a + b
-print(c)
+a = int(input('Please enter the first number: '))
+b = int(input('Please enter the second number: '))
+print(f'Your sum is {a+b}')
